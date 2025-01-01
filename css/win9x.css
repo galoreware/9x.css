@@ -1,0 +1,172 @@
+﻿body
+{
+	padding:20px;
+	font-family:Verdana;
+	font-size:0.85em;
+	background:#316BA5;
+	color:white
+}
+
+.icon{
+	display:inline-block;
+	margin:0 4px 4px 0;
+	padding:4px;
+	
+	width:192px;
+	
+	/*border:1px dashed red;*/
+	text-align:center;
+	text-decoration:none;
+	color:#222;
+	
+}
+
+.icon:hover, .icon.selected {
+	background-color:#9CC6EF;
+	border-radius:2px;
+}
+
+.icon img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+}
+
+.icon-emoji-1{
+	font-size: 1em;
+}
+
+.icon-emoji-2{
+	font-size: 2em;
+}
+
+/* 3D ELEMENT*/
+.window, .button, input[type='button']
+{
+	color:black;
+	background-color:#CECEC6;
+	
+	border:1px solid #393939;
+	border-top-color:white;
+	border-left-color:white;
+	border-radius:1px;
+	
+	outline:1px solid #394239;
+}
+
+textarea, input[type='text']
+{
+	border:1px solid black;
+	background-color:white;
+	color:black;
+	padding:6px;
+}
+
+.button, input[type='button']
+{
+	text-align:center;
+	display:inline-block;
+	padding:5px 10px;
+	
+	min-width:96px;
+	margin:0;
+	border-radius:1px;
+	text-decoration:none;
+	cursor:default;
+	/*box-shadow:1px 1px 2px #444*/
+}
+
+.button:hover, input[type='button']:hover, .button.selected
+{
+	background-color:#002163;
+	color:white;
+	border-color:black;
+	border-top-color:#9CC6EF;
+	border-left-color:#9CC6EF;
+}
+
+.window
+{
+	display:block;
+	padding:4px;
+	box-shadow:0 0 4px #444;
+}
+
+.icon-left{
+	vertical-align:middle;
+	height:100%;
+	display:inline-block;
+	margin-right:2px;
+}
+
+.window-title-bar
+{
+	padding:2px;
+	display:block;
+	background:linear-gradient(90deg, #002163,#9CC6EF);
+	color:white;
+	cursor:default;
+	margin-bottom:8px;
+}
+
+.window-title{
+	vertical-align:middle;
+	font-size:0.85em;
+	font-weight:bold;
+}
+
+.center{
+	text-align:center
+}
+.container{
+	padding:20px;
+	width:100%;
+	display:inline-block;
+	border:1px solid black
+}
+
+
+.content
+{	
+	border: 1px solid white;
+	outline:1px solid #AAA;
+	border-top-color:#444;
+	border-left-color:#444;
+	border-radius:1px;
+	
+	margin:2px;
+	display:block;
+	text-align:left;
+	padding:8px;
+	background-color:white;
+	color:#224;
+}
+
+
+nav ul{
+	padding:10px;
+	margin:0;
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+.content-title{
+	display:block;
+	padding-bottom:4px;
+	margin-bottom:10px;
+	
+	font-size:1.2em;
+	font-weight:bold;
+	border-bottom: 1px solid #AAA;
+}
+
+/*
+@media only screen and (max-width: 1600px) {
+	.container{
+		background-color:red;
+	}
+}
+*/
